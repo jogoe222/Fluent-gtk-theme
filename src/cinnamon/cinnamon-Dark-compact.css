@@ -295,10 +295,34 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   icon-size: 16px;
 }
 
-.menu .popup-menu-content,
+.appmenu-main-box {
+  spacing: 0px;
+}
+
+.appmenu-sidebar {
+  border-radius: 5px 0 0 5px;
+  background-color: rgba(51, 51, 51, 0.98);
+  padding: 8px;
+  margin: 0;
+}
+
+.appmenu-right-box {
+  padding: 8px;
+  margin: 0;
+}
+
+.menu .popup-menu-content {
+  padding: 0;
+}
+
 .popup-menu .popup-menu-content,
 .popup-combo-menu .popup-menu-content {
   padding: 4px 0;
+}
+
+.menu .popup-menu-content,
+.popup-menu .popup-menu-content,
+.popup-combo-menu .popup-menu-content {
   color: white;
   background-color: rgba(60, 60, 60, 0.98);
   border-radius: 5px;
